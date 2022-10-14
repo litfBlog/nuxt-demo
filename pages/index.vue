@@ -22,13 +22,7 @@ setInterval(() => {
       <div class="copyright">©2021-2022 litfa all rights reserved.</div>
       <div class="hr"></div>
       <div class="icp">
-        <a href="https://beian.miit.gov.cn/">豫ICP备2021024510号-2</a>
-        <a
-          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=4101820200807"
-        >
-          <img src="https://www.litf.com.cn/img/icp.d0289dc0.png" /> 豫公网安备
-          4101820200807号
-        </a>
+        <a href="https://beian.miit.gov.cn/">豫ICP备2021024510号-3</a>
       </div>
     </div>
   </div>
