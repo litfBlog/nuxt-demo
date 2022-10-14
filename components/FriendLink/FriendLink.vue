@@ -3,13 +3,13 @@ import type { HomeLink } from 'types/api'
 import { ElTooltip } from 'element-plus'
 
 const { data } = await useAsyncData('count', () =>
-  $fetch('https://api.litf.com.cn/api/friendLink/getHomeLink')
+  $fetch('https://api.ltfei.cn/blog/friendLink/getHomeLink')
 )
 </script>
 
 <template>
   <div class="friend-link">
-    <template v-for="i in (data as HomeLink).data" :key="i.id">
+    <template v-for="i in (data as HomeLink)?.data" :key="i.id">
       <a class="item" :href="i.url" target="_blank">
         <img :src="i.icon" :alt="i.name" />
         <span>{{ i.name }}</span>
