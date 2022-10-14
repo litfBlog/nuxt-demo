@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import dayjs from 'dayjs'
 
-const endTime = dayjs('2022-11-11 11:11:11')
+const endTime = dayjs('2023-1-1 00:00:00')
 
 const view = ref('')
 
